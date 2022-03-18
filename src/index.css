@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #1f1e1f;
+    color: white;
+}
+
+section h1 {
+    text-align: center;
+    padding: 40px 0 10px;
+    font-family: 'Caveat', cursive;
+}
+
+section h2 {
+    text-align: center;
+    padding: 5px 0 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+.bada_dabba {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card_main {
+    height: 200px;
+    width: 370px;
+    margin: 35px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.card_name span {
+    font-size: 0.8rem;
+}
+
+.card_name {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card_total {
+    font-size: 3rem;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 16px 22px 11px rgba(32, 32, 29, 0.808);
+    text-align: center;
+}
+
+.card_main:hover{
+    transform: scale(1.1);
+}
+
+.d1{
+    background-color: #4d70c2;
+}
+
+.d2{
+    background-color: #29923e;
+}
+
+.d3{
+    background-color: #bca92d;
+}
+
+.d4{
+    background-color: #d3641a;
+}
+
+.d5{
+    background-color: #355bae;
+}
+
+.d6{
+    background-color: #a29353;
+}

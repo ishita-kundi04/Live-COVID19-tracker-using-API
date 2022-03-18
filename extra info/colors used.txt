@@ -1,0 +1,8 @@
+backgroung = #1f1e1f
+
+div 1 = #4d70c2
+div 2 = #29923e
+div 3 = #bca92d
+div 4 = #d3641a
+div 5 = #355bae
+div 6 = #a29353
